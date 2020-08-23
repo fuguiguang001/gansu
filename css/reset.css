@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* base */
+*,
+*::before,
+*::after {-webkit-box-sizing: border-box; box-sizing: border-box;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; }
+body {width: 100%; font-size:12px; color:#fff; font-family:Verdana, Microsoft YaHei, Simsun; background:#fff;}
+fieldset, img { border:0; }
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; }
+textarea { resize:none; }
+a { color: #696969; text-decoration:none; }
+a:hover { text-decoration:none; }
+/*这个代码段就是解决高度塌陷的*/
+.clearfix:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { zoom: 1; }
+/*.clearfix { display: inline-table; }*/
+*html .clearfix { height: 1%; }
+/*.clearfix { display: block; }*/
+*+html .clearfix { min-height: 1%; }
+.container{
+    width: 3840px;
+    height: 1200px;
+}
