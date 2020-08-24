@@ -1,0 +1,506 @@
+@charset "UTF-8";
+.a-flipInY{
+    opacity: 0;
+    animation: a-flipInY 1s 0.5s linear forwards;
+}
+
+.a-rotateIn{
+    opacity: 0;
+    animation: a-rotateIn 1s .05s linear forwards;
+}
+
+.a-text-flipInX{
+    opacity: 0;
+    display: inline-block;
+    vertical-align: middle;
+    animation: a-flipInX 0.2s 1s linear forwards;
+}
+
+.a-img-flipInX{
+    opacity: 0;
+    animation: a-flipInX 0.2s 1s linear forwards;
+}
+
+/* page1动画 */
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6,
+.page7
+{
+    overflow: hidden;
+}
+.page1-box1-text1,
+.page1-box1-text2,
+.page1-box2-text1,
+.page1-box2-text2,
+.page1-box3-text1,
+.page1-box3-text2,
+.page1-box4-text1,
+.page1-box4-text2{
+    animation-delay: 1s;
+}
+.page1-img1-shine,
+.page1-img2-shine,
+.page1-img3-shine,
+.page1-img4-shine,
+.page1-img-el{
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+.page1-layer{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -3552px;
+    width: 7104px;
+    height: 1440px;
+    background: url(../img/page1-bg-el.png) center center / 100% 100% no-repeat;
+    z-index: 3;
+    animation: a-page1-layer 1s both infinite;
+}
+
+.page1-box1-show .page1-box2,
+.page1-box1-show .page1-box3,
+.page1-box1-show .page1-box4{
+    opacity: 0.4;
+}
+.page1-box2-show .page1-box1,
+.page1-box2-show .page1-box3,
+.page1-box2-show .page1-box4{
+    opacity: 0.4;
+}
+.page1-box3-show .page1-box2,
+.page1-box3-show .page1-box1,
+.page1-box3-show .page1-box4{
+    opacity: 0.4;
+}
+.page1-box4-show .page1-box2,
+.page1-box4-show .page1-box3,
+.page1-box4-show .page1-box1{
+    opacity: 0.4;
+}
+
+/* page4动画 */
+.page4-box1,
+.page4-box2,
+.page4-box3,
+.page4-box4,
+.page4 .theme-box,
+.page5-box1,
+.page5-box2,
+.page5-box3,
+.page5-box4,
+.page5 .theme-box,
+.page6-box1,
+.page6-box2,
+.page6-box3,
+.page6 .theme-box,
+.page7-box1,
+.page7-box2,
+.page7-box3,
+.page7 .theme-box{
+    animation: BX1_AniKey10 3.00s 0.00s alternate both;
+}
+.page4-box1{
+    bottom: 6px; 
+}
+.page4-box2{
+    bottom: -98px; 
+}
+.page4-box3{
+    bottom: 6px; 
+}
+.page4-box4{
+    bottom: -72px; 
+}
+.page4 .theme-box{
+    top: 294px;
+}
+
+.page5-box1{
+    bottom: -108px;
+}
+.page5-box2{
+    bottom: -18px;
+}
+.page5 .theme-box{
+    top: 294px;
+}
+.page5-box3{
+    bottom: 78px;
+}
+.page5-box4{
+    bottom: -18px;
+}
+
+.page6-box1{
+    bottom: -20px;
+}
+.page6-box2{
+    bottom: -18px;
+}
+.page6 .theme-box{
+    top: 294px;
+}
+.page6-box3{
+    bottom: -20px;
+}
+
+.page7-box1{
+    bottom: 20px;
+}
+.page7-box2{
+    bottom: -70px;
+}
+.page7 .theme-box{
+    top: 294px;
+}
+.page7-box3{
+    bottom: -48px;
+}
+
+.page4-box1-img1{
+    animation: a-spreadInY 1s linear forwards;
+}
+.page4-box1-l3-item1-img{
+    animation: a-spreadInX 1.2s linear forwards;
+}
+.page4-box1-l3-item2-img{
+    animation: a-spreadInX 1.2s linear forwards;
+}
+.page4-box3-img1{
+    animation: a-spreadInY 1s linear forwards;
+}
+
+.page4-box3-img3{
+    animation: a-rotateInUpRight 1s linear forwards;
+}
+.page4-box4-img3{
+    animation: a-fadeIn 1.2s linear forwards;
+}
+
+/* page5 */
+.page5-box1-text-groups{
+    animation: a-fadeInUp 1s linear forwards;
+}
+.page5-box2-img1-text{
+    animation: a-fadeIn 1.5s linear forwards;
+}
+.page5-box4-img1{
+    animation: a-fadeIn 1.5s linear forwards;
+}
+
+/* page6 */
+.page6-box1-img1,
+.page6-box3-img1{
+    animation: a-float 3s linear infinite;
+}
+.page6-box2-l1-list-img{
+    animation: a-spreadInX 1.5s linear forwards;
+}
+.page6-box2-text2{
+    animation: a-fadeIn 1s 1s linear forwards;
+}
+.page6-box2-l3-img1,
+.page6-box2-l3-img2,
+.page6-box2-l3-img3,
+.page6-box2-l3-img4,
+.page6-box2-l3-img5,
+.page6-box2-l3-img6,
+.page6-box2-l3-img7,
+.page6-box2-l5-img1,
+.page6-box2-l5-img2,
+.page6-box2-l5-img3,
+.page6-box2-l5-img4,
+.page6-box2-l5-img5,
+.page6-box2-l5-img6{
+    animation-delay: 0.5s;
+}
+
+/* page7 */
+/* .page7-box1{
+    animation: a-fadeIn 2s both forwards;
+} */
+.page7-box2-img1,
+.page7-box2-img2{
+    animation: a-spreadInY 1s linear forwards;
+}
+
+.page7-box3-img2{
+    animation: a-spreadInX 1s 0.8s linear forwards;
+}
+
+.page7-box3-img3{
+    animation: a-spreadInX 1s 1.5s linear forwards;
+}
+
+.page7-box1-img1,.page7-box1-img2,.page7-box1-img3{
+    animation-duration: 0.5s;
+}
+.page7-box1-img2{
+    animation-delay: 0.4s;
+}
+.page7-box1-img3{
+    animation-delay: 0.8s;
+}
+
+
+
+@keyframes a-page3-img3-light{
+    to {
+        background: url(../img/page3-img3-light.png) center center / 100% 100% no-repeat;
+    }
+}
+
+@keyframes a-page1-layer{
+    0% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes a-float {
+    0% {
+        transform:translate3d(0, 0, 0);
+    }
+    25%{
+        transform:translate3d(0, -3%, 0);
+    }
+    50%{
+        transform:translate3d(0, 0, 0);
+    }
+    75%{
+        transform:translate3d(0, 3%, 0);
+    }
+    to {
+        transform:translate3d(0, 0, 0);
+    }
+}
+
+@keyframes a-fadeInUp {
+    0% {
+        opacity:0;
+        -webkit-transform:translate3d(0, 100%, 0);
+        transform:translate3d(0, 100%, 0)
+    }
+    to {
+        opacity:1;
+        -webkit-transform:none;
+        transform:none
+    }
+}
+
+@keyframes a-rotateInUpRight {
+    0% {
+        transform-origin:center bottom;
+        -webkit-transform:rotate(-90deg);
+        transform:rotate(-90deg);
+        opacity:0
+    }
+    0%, to {
+        -webkit-transform-origin:center bottom
+    }
+    to {
+        transform-origin:center bottom;
+        -webkit-transform:none;
+        transform:none;
+        opacity:1
+    }
+}
+@keyframes a-rotateIn {
+    0% {
+        transform-origin:center;
+        transform:rotate(-200deg);
+        opacity:0;
+    }
+    0%, to {
+        -webkit-transform-origin:center
+    }
+    to {
+        transform-origin:center;
+        transform:none;
+        opacity:1;
+    }
+}
+@keyframes a-flipInX{
+    from {
+        opacity: 0;
+        transform: rotateX(180deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+@keyframes a-flipInY{
+    from {
+        opacity: 0;
+        transform: rotateY(180deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+/* 透明度0-1 */
+@keyframes a-fadeIn {
+    0% {
+        opacity:0
+    }
+    to {
+        opacity:1
+    }
+}
+/* 缩放显示 */
+@keyframes a-scaleIn {
+    0% {
+        opacity:0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity:1;
+        transform: scale(1);
+    }
+}
+/* 从左到右展开载入 */
+@keyframes a-spreadInX {
+    0% {
+        opacity: 0;
+        width: 0%;
+    }
+    to {
+        opacity: 1;
+        width: 100%;
+    }
+}
+@keyframes a-spreadInY {
+    0% {
+        opacity: 0;
+        height: 0%;
+    }
+    to {
+        opacity: 1;
+        height: 100%;
+    }
+}
+
+@keyframes BX_AniKey1{
+	0.00% {opacity: 1.00;}
+	2.50% {opacity: 0.99;}
+	4.17% {opacity: 0.98;}
+	5.00% {opacity: 0.97;}
+	5.83% {opacity: 0.96;}
+	6.67% {opacity: 0.95;}
+	7.50% {opacity: 0.94;}
+	8.33% {opacity: 0.93;}
+	9.17% {opacity: 0.91;}
+	10.00% {opacity: 0.90;}
+	10.83% {opacity: 0.88;}
+	11.67% {opacity: 0.86;}
+	12.50% {opacity: 0.84;}
+	13.33% {opacity: 0.82;}
+	14.17% {opacity: 0.80;}
+	15.00% {opacity: 0.78;}
+	15.83% {opacity: 0.76;}
+	16.67% {opacity: 0.74;}
+	17.50% {opacity: 0.72;}
+	18.33% {opacity: 0.70;}
+	19.17% {opacity: 0.67;}
+	20.00% {opacity: 0.65;}
+	20.83% {opacity: 0.62;}
+	21.67% {opacity: 0.60;}
+	22.50% {opacity: 0.57;}
+	23.33% {opacity: 0.55;}
+	24.17% {opacity: 0.52;}
+	25.00% {opacity: 0.50;}
+	25.83% {opacity: 0.48;}
+	26.67% {opacity: 0.45;}
+	27.50% {opacity: 0.43;}
+	28.33% {opacity: 0.40;}
+	29.17% {opacity: 0.38;}
+	30.00% {opacity: 0.35;}
+	30.83% {opacity: 0.33;}
+	31.67% {opacity: 0.30;}
+	32.50% {opacity: 0.28;}
+	33.33% {opacity: 0.26;}
+	34.17% {opacity: 0.24;}
+	35.00% {opacity: 0.22;}
+	35.83% {opacity: 0.20;}
+	36.67% {opacity: 0.18;}
+	37.50% {opacity: 0.16;}
+	38.33% {opacity: 0.14;}
+	39.17% {opacity: 0.12;}
+	40.00% {opacity: 0.10;}
+	40.83% {opacity: 0.09;}
+	41.67% {opacity: 0.07;}
+	42.50% {opacity: 0.06;}
+	43.33% {opacity: 0.05;}
+	44.17% {opacity: 0.04;}
+	45.00% {opacity: 0.03;}
+	45.83% {opacity: 0.02;}
+	46.67% {opacity: 0.01;}
+	48.33% {opacity: 0.00;}
+	52.50% {opacity: 0.01;}
+	54.17% {opacity: 0.02;}
+	55.00% {opacity: 0.03;}
+	55.83% {opacity: 0.04;}
+	56.67% {opacity: 0.05;}
+	57.50% {opacity: 0.06;}
+	58.33% {opacity: 0.08;}
+	59.17% {opacity: 0.09;}
+	60.00% {opacity: 0.11;}
+	60.83% {opacity: 0.12;}
+	61.67% {opacity: 0.14;}
+	62.50% {opacity: 0.16;}
+	63.33% {opacity: 0.18;}
+	64.17% {opacity: 0.20;}
+	65.00% {opacity: 0.22;}
+	65.83% {opacity: 0.24;}
+	66.67% {opacity: 0.27;}
+	67.50% {opacity: 0.29;}
+	68.33% {opacity: 0.31;}
+	69.17% {opacity: 0.34;}
+	70.00% {opacity: 0.36;}
+	70.83% {opacity: 0.39;}
+	71.67% {opacity: 0.41;}
+	72.50% {opacity: 0.44;}
+	73.33% {opacity: 0.46;}
+	74.17% {opacity: 0.49;}
+	75.00% {opacity: 0.51;}
+	75.83% {opacity: 0.54;}
+	76.67% {opacity: 0.56;}
+	77.50% {opacity: 0.59;}
+	78.33% {opacity: 0.61;}
+	79.17% {opacity: 0.64;}
+	80.00% {opacity: 0.66;}
+	80.83% {opacity: 0.69;}
+	81.67% {opacity: 0.71;}
+	82.50% {opacity: 0.73;}
+	83.33% {opacity: 0.76;}
+	84.17% {opacity: 0.78;}
+	85.00% {opacity: 0.80;}
+	85.83% {opacity: 0.82;}
+	86.67% {opacity: 0.84;}
+	87.50% {opacity: 0.86;}
+	88.33% {opacity: 0.88;}
+	89.17% {opacity: 0.89;}
+	90.00% {opacity: 0.91;}
+	90.83% {opacity: 0.92;}
+	91.67% {opacity: 0.94;}
+	92.50% {opacity: 0.95;}
+	93.33% {opacity: 0.96;}
+	94.17% {opacity: 0.97;}
+	95.00% {opacity: 0.98;}
+	95.83% {opacity: 0.99;}
+	97.50% {opacity: 1.00;}
+	100.00% {opacity: 1.00;}
+	}

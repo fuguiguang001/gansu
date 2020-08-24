@@ -1,0 +1,682 @@
+/* Generated via BX-AE2CSS by BigXiXi */
+.BX2_AEComposition{
+    background: transparent;
+    width: 7104px;
+    height: 1440px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    transform: translate3D(0,0,0) scale(1,1);
+    transform-origin:50% 0%;
+}
+.BX2_Class20{
+    left: 0.00px;
+    top: 0.00px;
+    width: 7104px;
+    height: 1440px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 1.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG20{
+    background: url("../img/BX2/%E8%83%8C%E6%99%AF.jpg");
+}
+.BX2_Ani20{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey20 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey20{
+/* 		This layer has no animations to export */
+	}
+.BX2_Class19{
+    left: 2495.00px;
+    top: 497.50px;
+    width: 2114px;
+    height: 1087px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG19{
+    background: url("../img/BX2/%E4%B8%AD.png");
+}
+.BX2_Ani19{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey19 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey19{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	3.31% {transform: translate3D(0.00px,-4.50px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.06;}
+	4.13% {transform: translate3D(0.00px,-16.83px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.20;}
+	4.96% {transform: translate3D(-0.00px,-35.25px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.39;}
+	5.79% {transform: translate3D(0.00px,-58.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.61;}
+	6.61% {transform: translate3D(-0.00px,-83.38px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.80;}
+	7.44% {transform: translate3D(0.00px,-109.62px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.94;}
+	8.26% {transform: translate3D(0.00px,-135.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	9.09% {transform: translate3D(0.00px,-157.75px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	9.92% {transform: translate3D(0.00px,-176.17px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	10.74% {transform: translate3D(0.00px,-188.50px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	11.57% {transform: translate3D(0.00px,-193.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(0.00px,-193.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class18{
+    left: 1507.50px;
+    top: 1142.50px;
+    width: 2619px;
+    height: 299px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG18{
+    background: url("../img/BX2/%E8%A7%85%E5%85%83%E7%B4%A058047779b19ef%20%E6%8B%B7%E8%B4%9D.png");
+}
+.BX2_Ani18{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey18 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey18{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	12.40% {transform: translate3D(53.15px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.26;}
+	13.22% {transform: translate3D(179.88px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.74;}
+	14.05% {transform: translate3D(331.12px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	14.88% {transform: translate3D(457.86px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	15.70% {transform: translate3D(511.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(511.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class17{
+    left: 3566.50px;
+    top: 288.50px;
+    width: 1559px;
+    height: 181px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG17{
+    background: url("../img/BX2/%E8%A7%85%E5%85%83%E7%B4%A058047779b19ef.png");
+}
+.BX2_Ani17{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey17 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey17{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	12.40% {transform: translate3D(-52.10px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.26;}
+	13.22% {transform: translate3D(-176.36px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.74;}
+	14.05% {transform: translate3D(-324.64px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	14.88% {transform: translate3D(-448.90px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	15.70% {transform: translate3D(-501.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(-501.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class16{
+    left: 3261.00px;
+    top: 604.50px;
+    width: 573px;
+    height: 463px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,0.00);
+    opacity: 1.00;
+    transform-origin:50.00% 0.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG16{
+    background: url("../img/BX2/%E6%A1%86.png");
+}
+.BX2_Ani16{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey16 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey16{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0);}
+	12.40% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.02800000038748);}
+	13.22% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.10400000092086);}
+	14.05% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.21600000105814);}
+	14.88% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.35200000069414);}
+	15.70% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.50000000000225);}
+	16.53% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.64799999931018);}
+	17.36% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.78399999894564);}
+	18.18% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.89599999908202);}
+	19.01% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.97199999961414);}
+	19.83% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	100.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	}
+.BX2_Class15{
+    left: 2646.00px;
+    top: 604.50px;
+    width: 573px;
+    height: 463px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,0.00);
+    opacity: 1.00;
+    transform-origin:50.00% 0.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG15{
+    background: url("../img/BX2/%E6%A1%86.png");
+}
+.BX2_Ani15{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey15 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey15{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0);}
+	12.40% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.02800000038748);}
+	13.22% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.10400000092086);}
+	14.05% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.21600000105814);}
+	14.88% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.35200000069414);}
+	15.70% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.50000000000225);}
+	16.53% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.64799999931018);}
+	17.36% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.78399999894564);}
+	18.18% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.89599999908202);}
+	19.01% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.97199999961414);}
+	19.83% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	100.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	}
+.BX2_Class14{
+    left: 3874.00px;
+    top: 604.50px;
+    width: 573px;
+    height: 463px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,0.00);
+    opacity: 1.00;
+    transform-origin:50.00% 0.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG14{
+    background: url("../img/BX2/%E6%A1%86.png");
+}
+.BX2_Ani14{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey14 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey14{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0);}
+	12.40% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.02800000038748);}
+	13.22% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.10400000092086);}
+	14.05% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.21600000105814);}
+	14.88% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.35200000069414);}
+	15.70% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.50000000000225);}
+	16.53% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.64799999931018);}
+	17.36% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.78399999894564);}
+	18.18% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.89599999908202);}
+	19.01% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,0.97199999961414);}
+	19.83% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	100.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	}
+.BX2_Class13{
+    left: 3322.50px;
+    top: 721.00px;
+    width: 443px;
+    height: 294px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG13{
+    background: url("../img/BX2/%E5%8F%91%E6%8C%A5.png");
+}
+.BX2_Ani13{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey13 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey13{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	24.79% {transform: translate3D(0.00px,-4.39px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.16;}
+	25.62% {transform: translate3D(-0.00px,-16.15px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.50;}
+	26.45% {transform: translate3D(0.00px,-33.19px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.84;}
+	27.27% {transform: translate3D(-0.00px,-53.38px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	28.10% {transform: translate3D(0.00px,-74.62px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	28.93% {transform: translate3D(0.00px,-94.81px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	29.75% {transform: translate3D(0.00px,-111.85px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	30.58% {transform: translate3D(-0.00px,-123.61px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	31.40% {transform: translate3D(0.00px,-128.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(0.00px,-128.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class12{
+    left: 3998.50px;
+    top: 790.00px;
+    width: 328px;
+    height: 223px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG12{
+    background: url("../img/BX2/%E5%8A%A9%E5%8A%9B.png");
+}
+.BX2_Ani12{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey12 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey12{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	24.79% {transform: translate3D(0.00px,-4.39px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.16;}
+	25.62% {transform: translate3D(-0.00px,-16.15px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.50;}
+	26.45% {transform: translate3D(-0.00px,-33.19px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.84;}
+	27.27% {transform: translate3D(0.00px,-53.38px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	28.10% {transform: translate3D(0.00px,-74.62px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	28.93% {transform: translate3D(0.00px,-94.81px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	29.75% {transform: translate3D(0.00px,-111.85px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	30.58% {transform: translate3D(0.00px,-123.61px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	31.40% {transform: translate3D(0.00px,-128.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(0.00px,-128.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class11{
+    left: 2762.00px;
+    top: 777.00px;
+    width: 341px;
+    height: 238px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG11{
+    background: url("../img/BX2/%E5%93%8D%E5%BA%94.png");
+}
+.BX2_Ani11{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey11 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey11{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	24.79% {transform: translate3D(0.00px,-4.39px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.16;}
+	25.62% {transform: translate3D(-0.00px,-16.15px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.50;}
+	26.45% {transform: translate3D(0.00px,-33.19px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.84;}
+	27.27% {transform: translate3D(-0.00px,-53.38px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	28.10% {transform: translate3D(0.00px,-74.62px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	28.93% {transform: translate3D(0.00px,-94.81px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	29.75% {transform: translate3D(-0.00px,-111.85px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	30.58% {transform: translate3D(0.00px,-123.61px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	31.40% {transform: translate3D(0.00px,-128.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(0.00px,-128.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class10{
+    left: 2651.50px;
+    top: 389.50px;
+    width: 1801px;
+    height: 67px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG10{
+    background: url("../img/BX2/%E5%BA%95%E6%9D%BF.png");
+}
+.BX2_Ani10{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey10 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey10{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	4.13% {transform: translate3D(-0.00px,2.83px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.06;}
+	4.96% {transform: translate3D(0.00px,10.50px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.20;}
+	5.79% {transform: translate3D(0.00px,21.82px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.39;}
+	6.61% {transform: translate3D(0.00px,35.55px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.61;}
+	7.44% {transform: translate3D(0.00px,50.49px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.80;}
+	8.26% {transform: translate3D(0.00px,65.44px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.94;}
+	9.09% {transform: translate3D(0.00px,79.18px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	9.92% {transform: translate3D(0.00px,90.49px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	10.74% {transform: translate3D(-0.00px,98.17px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	11.57% {transform: translate3D(0.00px,101.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(0.00px,101.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class9{
+    left: 2651.50px;
+    top: 1145.50px;
+    width: 1801px;
+    height: 67px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG9{
+    background: url("../img/BX2/%E5%BA%95%E6%9D%BF.png");
+}
+.BX2_Ani9{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey9 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey9{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0;}
+	21.49% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	24.79% {transform: translate3D(0.00px,1.61px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.06;}
+	25.62% {transform: translate3D(0.00px,6.02px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.20;}
+	26.45% {transform: translate3D(-0.00px,12.60px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.39;}
+	27.27% {transform: translate3D(0.00px,20.74px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.61;}
+	28.10% {transform: translate3D(0.00px,29.81px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.80;}
+	28.93% {transform: translate3D(0.00px,39.18px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.94;}
+	29.75% {transform: translate3D(0.00px,48.26px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	30.58% {transform: translate3D(0.00px,56.40px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	31.40% {transform: translate3D(0.00px,62.98px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	32.23% {transform: translate3D(0.00px,67.39px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	33.06% {transform: translate3D(0.00px,69.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(0.00px,69.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class8{
+    left: 245.00px;
+    top: 626.00px;
+    width: 2302px;
+    height: 776px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 1.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG8{
+    background: url("../img/BX2/%E5%B7%A6%E5%85%89%E7%8E%AF.png");
+}
+.BX2_Ani8{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey8 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey8{
+/* 		This layer has no animations to export */
+	}
+.BX2_Class7{
+    left: 4657.00px;
+    top: 624.00px;
+    width: 2302px;
+    height: 776px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 1.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG7{
+    background: url("../img/BX2/%E5%8F%B3%E5%85%89%E7%8E%AF.png");
+}
+.BX2_Ani7{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey7 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey7{
+/* 		This layer has no animations to export */
+	}
+.BX2_Class6{
+    left: 4991.50px;
+    top: 492.00px;
+    width: 1513px;
+    height: 901px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG6{
+    background: url("../img/BX2/%E5%8F%B3%E5%9B%BE%E6%A1%86.png");
+}
+.BX2_Ani6{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey6 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey6{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.00;}
+	6.61% {transform: translate3D(0.00px,-2.62px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.04;}
+	7.44% {transform: translate3D(0.00px,-9.98px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.16;}
+	8.26% {transform: translate3D(0.00px,-21.25px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.32;}
+	9.09% {transform: translate3D(-0.00px,-35.70px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.50;}
+	9.92% {transform: translate3D(0.00px,-52.48px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.68;}
+	10.74% {transform: translate3D(0.00px,-70.85px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.84;}
+	11.57% {transform: translate3D(0.00px,-90.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 0.96;}
+	12.40% {transform: translate3D(0.00px,-109.15px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	13.22% {transform: translate3D(0.00px,-127.52px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	14.05% {transform: translate3D(0.00px,-144.31px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	14.88% {transform: translate3D(0.00px,-158.75px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	15.70% {transform: translate3D(-0.00px,-170.02px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	16.53% {transform: translate3D(0.00px,-177.38px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	17.36% {transform: translate3D(0.00px,-180.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	100.00% {transform: translate3D(0.00px,-180.00px,0.00px) rotate(0.00deg) scale(1,1);opacity: 1.00;}
+	}
+.BX2_Class5{
+    left: 21.00px;
+    top: 40.00px;
+    width: 1471px;
+    height: 848px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG5{
+    background: url("../img/BX2/%E9%BB%91%E5%A4%9C.png");
+}
+.BX2_Ani5{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey5 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey5{
+	0.00% {opacity: 0.00;}
+	6.61% {opacity: 0.04;}
+	7.44% {opacity: 0.16;}
+	8.26% {opacity: 0.32;}
+	9.09% {opacity: 0.50;}
+	9.92% {opacity: 0.68;}
+	10.74% {opacity: 0.84;}
+	11.57% {opacity: 0.96;}
+	12.40% {opacity: 1.00;}
+	100.00% {opacity: 1.00;}
+	}
+.BX2_Class4{
+    left: 21.00px;
+    top: 40.00px;
+    width: 1471px;
+    height: 848px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG4{
+    background: url("../img/BX2/%E5%8F%98%E4%BA%AE.png");
+}
+.BX2_Ani4{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey4 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey4{
+	0.00% {opacity: 0.00;}
+	19.83% {opacity: 0.01;}
+	20.66% {opacity: 0.04;}
+	21.49% {opacity: 0.09;}
+	22.31% {opacity: 0.16;}
+	23.14% {opacity: 0.23;}
+	23.97% {opacity: 0.32;}
+	24.79% {opacity: 0.41;}
+	25.62% {opacity: 0.50;}
+	26.45% {opacity: 0.59;}
+	27.27% {opacity: 0.68;}
+	28.10% {opacity: 0.77;}
+	28.93% {opacity: 0.84;}
+	29.75% {opacity: 0.91;}
+	30.58% {opacity: 0.96;}
+	31.40% {opacity: 0.99;}
+	32.23% {opacity: 1.00;}
+	100.00% {opacity: 1.00;}
+	}
+.BX2_Class3{
+    left: 583.50px;
+    top: 321.50px;
+    width: 1618px;
+    height: 104px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(0.00,1.00);
+    opacity: 1.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG3{
+    background: url("../img/BX2/%E6%A0%87%E9%A2%98%E6%A1%86.png");
+}
+.BX2_Ani3{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey3 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey3{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0,1);}
+	8.26% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.02800000038748,1);}
+	9.09% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.10400000092086,1);}
+	9.92% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.21600000105814,1);}
+	10.74% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.35200000069414,1);}
+	11.57% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.50000000000225,1);}
+	12.40% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.64799999931018,1);}
+	13.22% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.78399999894564,1);}
+	14.05% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.89599999908202,1);}
+	14.88% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.97199999961414,1);}
+	15.70% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	100.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	}
+.BX2_Class2{
+    left: 3070.00px;
+    top: 179.00px;
+    width: 964px;
+    height: 118px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(0.00,1.00);
+    opacity: 1.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG2{
+    background: url("../img/BX2/%E4%B8%BB%E6%A0%87%E9%A2%98%E6%A1%86.png");
+}
+.BX2_Ani2{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey2 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey2{
+	0.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0,1);}
+	6.61% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.02800000038748,1);}
+	7.44% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.10400000092086,1);}
+	8.26% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.21600000105814,1);}
+	9.09% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.35200000069414,1);}
+	9.92% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.50000000000225,1);}
+	10.74% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.64799999931018,1);}
+	11.57% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.78399999894564,1);}
+	12.40% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.89599999908202,1);}
+	13.22% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(0.97199999961414,1);}
+	14.05% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	100.00% {transform: translate3D(0.00px,0.00px,0.00px) rotate(0.00deg) scale(1,1);}
+	}
+.BX2_Class1{
+    left: 3045.50px;
+    top: 20.16px;
+    width: 1013px;
+    height: 84px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 1.00;
+    transform-origin:50.00% 50.00%;
+    display: block;
+    position: absolute; 
+}
+.BX2_BG1{
+    background: url("../img/BX2/LOGO.png");
+}
+.BX2_Ani1{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:BX2_AniKey1 5.04s steps(1) 0.00s infinite alternate both;
+}
+@keyframes BX2_AniKey1{
+/* 		This layer has no animations to export */
+    }
+.BX2_theme {
+    display: inline-block;
+    width: 681px;
+    height: 58px;
+    vertical-align: middle;
+    position: absolute;
+    top: 320px;
+    left: 3200px;
+    background: url(../img/BX2/BX2_theme.png) center center / 100% 100% no-repeat;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin: 50.00% 50.00%;
+    animation: BX1_AniKey10 4.00s steps(1) 0.00s infinite alternate both;
+}
+.BX2_img1 {
+    width: 1611px;
+    height: 856px;
+    margin: 0 auto;
+    background: url(../img/BX2/BX2_img1.png) center center / 100% 100% no-repeat;
+    position: absolute;
+    top: 526px;;
+    left: 490px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin: 50.00% 50.00%;
+    animation: BX1_AniKey10 4.00s steps(1) 0.00s infinite alternate both;
+}
+.BX2_text1{
+    width: 1502px;
+    height: 41px;
+    margin: 0 auto;
+    background: url(../img/BX2/BX2_text1.png) center center / 100% 100% no-repeat;
+    position: absolute;
+    top: 450px;
+    left: 640px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin: 50.00% 50.00%;
+    animation: BX1_AniKey10 4.00s steps(1) 0.00s infinite alternate both;
+}
+.BX2_text2{
+    width: 1723px;
+    height: 759px;
+    margin: 0 auto;
+    background: url(../img/BX2/BX2_text2.png) center center / 100% 100% no-repeat;
+    position: absolute;
+    top: 572px;
+    left: 2684px;
+    transform-style: preserve-3d;
+    transform: translate3D(0,0,0.00px) rotate(0.00deg) scale(1.00,1.00);
+    opacity: 0.00;
+    transform-origin: 50.00% 50.00%;
+    animation: BX1_AniKey10 4.00s steps(1) 0.00s infinite alternate both;
+}

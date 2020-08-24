@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>大数据展示平台</title>
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <style>
+        .container{
+            width: 3840px;
+            height: 1200px;
+        }
+        .logo1{
+            width: 320px;
+            height: 84px;
+            margin-top: -10px;
+        }
+        .title1{
+            height: 80px;
+            width: 990px;
+        }
+        .page1-box{
+            transform: scale(.6,.6);
+            margin-left: -290px;
+            margin-top: -50px;
+        }
+        .page1-img1{
+            margin-left: -389px;
+        }
+        .page1-img2{
+            margin-left: -305px;
+        }
+        .page1-img3{
+            margin-left: -356px;
+        }
+        .page1-img4{
+            margin-left: -332.5px;
+        }
+	</style>
+</head>
+
+<body>
+
+<div class="container">
+    <!-- 导航屏 -->
+    <div class="page1 bg-main">
+        <div class="page1-bg"> </div>
+        <div class="logo-box" onclick="toUrl('index.html')"><span class="logo1"></span></div>
+        <h1 class="title-box"><span class="title1"></span></h1>
+
+        <div class="page1-box-wrap">
+            <div class="page1-layer"></div>
+            <div class="page1-box page1-box1" onclick="toUrl('page1.html')">
+                <div class="page1-img1 animated fadeInDown"></div>
+                <div class="page1-img1-shine animated fadeIn"></div>
+                <div class="page1-img-bg animated fadeInUp"></div>
+                <p class="page1-box1-text1 animated fadeInDown"></p>
+                <p class="page1-box1-text2 animated fadeInUp"></p>
+                <div class="page1-img-el animated fadeIn"></div>
+            </div>
+
+            <div class="page1-box page1-box2" onclick="toUrl('page2.html')">
+                <div class="page1-img2 animated fadeInDown"></div>
+                <div class="page1-img2-shine animated fadeIn"></div>
+                <div class="page1-img-bg animated fadeInUp"></div>
+                <p class="page1-box2-text1 animated fadeInDown"></p>
+                <p class="page1-box2-text2 animated fadeInUp"></p>
+                <div class="page1-img-el animated fadeIn"></div>
+            </div>
+
+            <div class="page1-box page1-box3" onclick="toUrl('page3.html')">
+                <div class="page1-img3 animated fadeInDown"></div>
+                <div class="page1-img3-shine animated fadeIn"></div>
+                <div class="page1-img-bg animated fadeInUp"></div>
+                <p class="page1-box3-text1 animated fadeInDown"></p>
+                <p class="page1-box3-text2 animated fadeInUp"></p>
+                <div class="page1-img-el animated fadeIn"></div>
+            </div>
+
+            <div class="page1-box page1-box4" onclick="toUrl('page4.html')">
+                <div class="page1-img4 animated fadeInDown"></div>
+                <div class="page1-img4-shine animated fadeIn"></div>
+                <div class="page1-img-bg animated fadeInUp"></div>
+                <p class="page1-box4-text1 animated fadeInDown"></p>
+                <p class="page1-box4-text2 animated fadeInUp"></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    function toUrl(url){
+        location.href = url
+    }
+</script>
+</body>
+</html>
