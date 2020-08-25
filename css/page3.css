@@ -1,0 +1,546 @@
+.container .leftNav {
+  width: 300px;
+  height: 1200px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.container .rightNav {
+  width: 300px;
+  height: 1200px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.container .page3-1 .title {
+  width: 688px;
+  height: 85px;
+  background: url(../img/page3/title.png) no-repeat;
+  margin: 0 auto;
+  padding-top: 18px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-left: -344px;
+}
+.container .page3-1 .title img {
+  display: block;
+  margin-left: 260px;
+}
+.container .page3-1 .title::before {
+  content: '';
+  width: 49px;
+  height: 44px;
+  left: 185px;
+  position: absolute;
+  display: block;
+  background: url(../img/page3/jk.png);
+  top: 24px;
+}
+.container .page3-1 .page3-1L {
+  width: 1290px;
+  height: 1200px;
+  position: relative;
+  background: url(../img/page3/3-1lbg.png) no-repeat;
+  float: left;
+  margin-left: 100px;
+}
+.container .page3-1 .page3-1L .fk {
+  width: 416px;
+  height: 391px;
+  background: url(../img/page3/fk.png) no-repeat;
+  position: absolute;
+  background-size: 90% 90%;
+  font-size: 28px;
+  color: #fff;
+  padding-top: 170px;
+}
+.container .page3-1 .page3-1L .fk.fk1 {
+  left: 310px;
+  top: 300px;
+  z-index: 1;
+  padding-left: 90px;
+}
+.container .page3-1 .page3-1L .fk.fk1::before {
+  content: '';
+  display: block;
+  width: 105px;
+  height: 67px;
+  background: url(../img/page3/fk1_icon.png) no-repeat;
+  background-size: 90% 90%;
+  top: 105px;
+  left: 134px;
+  position: absolute;
+}
+.container .page3-1 .page3-1L .fk.fk2 {
+  left: 610px;
+  top: 290px;
+  z-index: 3;
+  padding-left: 100px;
+}
+.container .page3-1 .page3-1L .fk.fk2::before {
+  content: '';
+  display: block;
+  width: 83px;
+  height: 74px;
+  background: url(../img/page3/fk2_icon.png) no-repeat;
+  background-size: 90% 90%;
+  top: 95px;
+  left: 144px;
+  position: absolute;
+}
+.container .page3-1 .page3-1L .fk.fk3 {
+  left: 470px;
+  top: 470px;
+  z-index: 2;
+  padding-left: 100px;
+}
+.container .page3-1 .page3-1L .fk.fk3::before {
+  content: '';
+  display: block;
+  width: 83px;
+  height: 83px;
+  background: url(../img/page3/fk3_icon.png) no-repeat;
+  background-size: 90% 90%;
+  top: 92px;
+  left: 142px;
+  position: absolute;
+}
+.container .page3-1 .page3-1C {
+  width: 1205px;
+  height: 1200px;
+  position: relative;
+  float: left;
+  padding-top: 275px;
+  overflow: hidden;
+}
+.container .page3-1 .page3-1C .text {
+  width: 100%;
+  height: 120px;
+  position: relative;
+}
+.container .page3-1 .page3-1C .text .b1 {
+  width: 937px;
+  height: 80px;
+  background: url(../img/page3/b1.png) no-repeat;
+  position: absolute;
+  left: 50%;
+  margin-left: -468.5px;
+}
+.container .page3-1 .page3-1C .text .h1 {
+  width: 446px;
+  height: 38px;
+  background: url(../img/page3/h1.png) no-repeat;
+  position: absolute;
+  left: 418px;
+  top: 44px;
+}
+.container .page3-1 .page3-1C .text .b2 {
+  width: 100%;
+  height: 29px;
+  background: url(../img/page3/b2.png) no-repeat;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+}
+.container .page3-1 .page3-1C .kuang {
+  width: 100%;
+  height: 730px;
+  position: relative;
+  background: url(../img/page3/3-1cbg.png) top center no-repeat;
+  margin-top: -30px;
+}
+.container .page3-1 .page3-1C .kuang::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 44px;
+  background: url(../img/page3/cdizuo.png) no-repeat;
+  position: absolute;
+  bottom: 34px;
+}
+.container .page3-1 .page3-1C .kuang .left {
+  width: 228px;
+  height: 100%;
+  float: left;
+  margin-left: 85px;
+}
+.container .page3-1 .page3-1C .kuang .left .h2 {
+  width: 100%;
+  height: 60px;
+  background: url(../img/page3/h2.png) no-repeat;
+  margin-top: 120px;
+}
+.container .page3-1 .page3-1C .kuang .left .b3 {
+  width: 100%;
+  height: 289px;
+  background: url(../img/page3/b3.png) no-repeat;
+  margin-top: 40px;
+}
+.container .page3-1 .page3-1C .kuang .right {
+  width: 779px;
+  height: 100%;
+  background: url(../img/page3/zhuxi.png) center 65px no-repeat;
+  float: right;
+  margin-right: 60px;
+  position: relative;
+}
+.container .page3-1 .page3-1C .kuang .right .zhuxi_text {
+  width: 763px;
+  height: 45px;
+  background: url(../img/page3/ctextbg.png) no-repeat;
+  position: absolute;
+  bottom: 125px;
+  right: 9px;
+}
+.container .page3-1 .page3-1C .kuang .right .zhuxi_text img {
+  display: block;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.container .page3-1 .page3-1R {
+  width: 1050px;
+  height: 1200px;
+  position: relative;
+  float: left;
+  padding-top: 340px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.container .page3-1 .page3-1R .left {
+  width: 710px;
+}
+.container .page3-1 .page3-1R .left .TopNav {
+  width: 100%;
+  height: 62px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: url(../img/page3/r1.png) center center no-repeat;
+}
+.container .page3-1 .page3-1R .left .tb {
+  width: 100%;
+  height: 500px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .page3-1 .page3-1R .left .tb .tbbox {
+  width: 340px;
+  height: 209px;
+  margin-bottom: 40px;
+}
+.container .page3-1 .page3-1R .left .tb .tbbox.tbbox1 {
+  background: url(../img/page3/r3.png) no-repeat;
+}
+.container .page3-1 .page3-1R .left .tb .tbbox.tbbox2 {
+  background: url(../img/page3/r5.png) no-repeat;
+}
+.container .page3-1 .page3-1R .left .tb .tbbox.tbbox3 {
+  background: url(../img/page3/r7.png) no-repeat;
+}
+.container .page3-1 .page3-1R .left .tb .tbbox.tbbox4 {
+  background: url(../img/page3/r8.png) no-repeat;
+}
+.container .page3-1 .page3-1R .right {
+  width: 301px;
+}
+.container .page3-1 .page3-1R .right .list {
+  width: 100%;
+  height: 106px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container .page3-1 .page3-1R .right .list.list1 {
+  background: url(../img/page3/r9.png) no-repeat;
+}
+.container .page3-1 .page3-1R .right .list.list2 {
+  background: url(../img/page3/r10.png) no-repeat;
+}
+.container .page3-1 .page3-1R .right .list.list3 {
+  background: url(../img/page3/r11.png) no-repeat;
+}
+.container .page3-1 .page3-1R .right .list.list4 {
+  background: url(../img/page3/r12.png) no-repeat;
+}
+.container .page3-2 .title {
+  width: 688px;
+  height: 85px;
+  background: url(../img/page3/title.png) no-repeat;
+  margin: 0 auto;
+  padding-top: 18px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-left: -344px;
+}
+.container .page3-2 .title img {
+  display: block;
+  margin-left: 260px;
+}
+.container .page3-2 .title::before {
+  content: '';
+  width: 49px;
+  height: 44px;
+  left: 185px;
+  position: absolute;
+  display: block;
+  background: url(../img/page3/jk.png);
+  top: 24px;
+}
+.container .page3-2 .page3-2L {
+  width: 1290px;
+  height: 1200px;
+  position: relative;
+  background: url(../img/page3/3-1lbg.png) no-repeat;
+  float: left;
+  margin-left: 100px;
+}
+.container .page3-2 .page3-2L .ck {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  z-index: 99;
+}
+.container .page3-2 .page3-2L .ck.ck1 {
+  left: 400px;
+  top: 380px;
+}
+.container .page3-2 .page3-2L .ck.ck2 {
+  left: 710px;
+  top: 360px;
+}
+.container .page3-2 .page3-2L .ck.ck3 {
+  left: 560px;
+  top: 560px;
+}
+.container .page3-2 .page3-2L .fk {
+  width: 416px;
+  height: 391px;
+  background: url(../img/page3/fk.png) no-repeat;
+  position: absolute;
+  background-size: 90% 90%;
+  font-size: 28px;
+  color: #fff;
+  padding-top: 170px;
+}
+.container .page3-2 .page3-2L .fk.fk1 {
+  left: 310px;
+  top: 300px;
+  z-index: 1;
+  padding-left: 90px;
+}
+.container .page3-2 .page3-2L .fk.fk1::before {
+  content: '';
+  display: block;
+  width: 105px;
+  height: 67px;
+  background: url(../img/page3/fk1_icon.png) no-repeat;
+  background-size: 90% 90%;
+  top: 105px;
+  left: 134px;
+  position: absolute;
+}
+.container .page3-2 .page3-2L .fk.fk2 {
+  left: 610px;
+  top: 290px;
+  z-index: 3;
+  padding-left: 100px;
+}
+.container .page3-2 .page3-2L .fk.fk2::before {
+  content: '';
+  display: block;
+  width: 83px;
+  height: 74px;
+  background: url(../img/page3/fk2_icon.png) no-repeat;
+  background-size: 90% 90%;
+  top: 95px;
+  left: 144px;
+  position: absolute;
+}
+.container .page3-2 .page3-2L .fk.fk3 {
+  left: 470px;
+  top: 470px;
+  z-index: 2;
+  padding-left: 100px;
+}
+.container .page3-2 .page3-2L .fk.fk3::before {
+  content: '';
+  display: block;
+  width: 83px;
+  height: 83px;
+  background: url(../img/page3/fk3_icon.png) no-repeat;
+  background-size: 90% 90%;
+  top: 92px;
+  left: 142px;
+  position: absolute;
+}
+.container .page3-2 .page3-2L .qipao1 {
+  width: 233px;
+  height: 330px;
+  background: url(../img/page3/r13.png) no-repeat;
+  position: absolute;
+  left: 30px;
+  top: 350px;
+}
+.container .page3-2 .page3-2L .qipao2 {
+  width: 233px;
+  height: 333px;
+  background: url(../img/page3/r14.png) no-repeat;
+  position: absolute;
+  left: 1030px;
+  top: 350px;
+}
+.container .page3-2 .page3-2L .qipao3 {
+  width: 787px;
+  height: 216px;
+  background: url(../img/page3/r15.png) no-repeat;
+  position: absolute;
+  left: 240px;
+  top: 840px;
+}
+.container .page3-2 .page3-2C {
+  width: 1228px;
+  height: 1200px;
+  position: relative;
+  float: left;
+  padding-top: 275px;
+  overflow: hidden;
+}
+.container .page3-2 .page3-2C .bg {
+  width: 100%;
+  height: 868px;
+  background: url(../img/page3/r16.png) no-repeat;
+  position: absolute;
+  top: 250px;
+  left: 0px;
+}
+.container .page3-2 .page3-2C .bg1 {
+  width: 100%;
+  height: 868px;
+  background: url(../img/page3/r17.png) no-repeat;
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  z-index: 1;
+  opacity: 0;
+  animation: showFn 1.4s forwards;
+}
+.container .page3-2 .page3-2C .yuan {
+  width: 100%;
+  height: 868px;
+  background: url(../img/page3/r18.png) no-repeat 0px 100px;
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  z-index: 1;
+  opacity: 1;
+}
+.container .page3-2 .page3-2C .line {
+  width: 100%;
+  height: 868px;
+  background: url(../img/page3/r19.png) no-repeat center center;
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  z-index: 2;
+  opacity: 1;
+}
+.container .page3-2 .page3-2R {
+  width: 1050px;
+  height: 1200px;
+  position: relative;
+  float: left;
+  padding-top: 340px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.container .page3-2 .page3-2R .left {
+  width: 710px;
+}
+.container .page3-2 .page3-2R .left .TopNav {
+  width: 100%;
+  height: 62px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: url(../img/page3/r1.png) center center no-repeat;
+}
+.container .page3-2 .page3-2R .left .tb {
+  width: 100%;
+  height: 500px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .page3-2 .page3-2R .left .tb .tbbox {
+  width: 340px;
+  height: 209px;
+  margin-bottom: 40px;
+}
+.container .page3-2 .page3-2R .left .tb .tbbox.tbbox1 {
+  background: url(../img/page3/r3.png) no-repeat;
+}
+.container .page3-2 .page3-2R .left .tb .tbbox.tbbox2 {
+  background: url(../img/page3/r5.png) no-repeat;
+}
+.container .page3-2 .page3-2R .left .tb .tbbox.tbbox3 {
+  background: url(../img/page3/r7.png) no-repeat;
+}
+.container .page3-2 .page3-2R .left .tb .tbbox.tbbox4 {
+  background: url(../img/page3/r8.png) no-repeat;
+}
+.container .page3-2 .page3-2R .right {
+  width: 301px;
+}
+.container .page3-2 .page3-2R .right .list {
+  width: 100%;
+  height: 106px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container .page3-2 .page3-2R .right .list.list1 {
+  background: url(../img/page3/r9.png) no-repeat;
+}
+.container .page3-2 .page3-2R .right .list.list2 {
+  background: url(../img/page3/r10.png) no-repeat;
+}
+.container .page3-2 .page3-2R .right .list.list3 {
+  background: url(../img/page3/r11.png) no-repeat;
+}
+.container .page3-2 .page3-2R .right .list.list4 {
+  background: url(../img/page3/r12.png) no-repeat;
+}
+.animate__delay-02s {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.animate__delay-04s {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+.animate__delay-06s {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+@keyframes showFn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

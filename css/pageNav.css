@@ -1,3 +1,22 @@
+.container .logo {
+  width: 204px;
+  height: 56px;
+  background: url(../img/logo.png) no-repeat;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  margin-left: -102px;
+}
+.container::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 570px;
+  position: absolute;
+  left: 0;
+  top: 33%;
+  background: url(../img/main_wenli.png) center center no-repeat;
+}
 .container .page1-1 {
   width: 100%;
   height: 100%;
@@ -35,7 +54,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
   bottom: 0;
 }
 .container .page1-1 .slide1 .bg::before {
@@ -49,8 +68,24 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.container .page1-1 .slide1 .gx {
+  width: 245px;
+  height: 270px;
+  position: absolute;
+  top: 550px;
+  left: 279px;
+  background: url(../img/pageNav/gx.png) no-repeat;
+}
 .container .page1-1 .slide2 {
   left: 25%;
+}
+.container .page1-1 .slide2 .gx {
+  width: 245px;
+  height: 270px;
+  position: absolute;
+  top: 550px;
+  left: 375px;
+  background: url(../img/pageNav/gx.png) no-repeat;
 }
 .container .page1-1 .slide2 .slide2-text {
   width: 100%;
@@ -63,7 +98,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
   bottom: 0;
 }
 .container .page1-1 .slide2 .bg::before {
@@ -80,6 +115,14 @@
 .container .page1-1 .slide3 {
   left: 50%;
 }
+.container .page1-1 .slide3 .gx {
+  width: 245px;
+  height: 270px;
+  position: absolute;
+  top: 500px;
+  left: 219px;
+  background: url(../img/pageNav/gx.png) no-repeat;
+}
 .container .page1-1 .slide3 .slide3-text {
   width: 100%;
   height: 100%;
@@ -91,7 +134,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
   bottom: 0;
 }
 .container .page1-1 .slide3 .bg::before {
@@ -119,7 +162,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
   bottom: 0;
 }
 .container .page1-1 .slide4 .bg::before {

@@ -10,19 +10,25 @@
 </head>
 <body>
     <div class="container">
+        <!-- logo -->
+        <div class="logo"></div>
+
         <div class="page page1-1">
             <!-- 推动能源互联网建设背景图 -->
             <div class="pageBg">
                 <!-- 模块一 -->
                 <div class="slide slide1">
+                    <div class="gx animate__animated animate__zoomInDown animate__delay-1s"></div>
                     <div class="slide1-text animate__animated animate__zoomInDown animate__delay-1s"></div>
                     <div class="bg animate__animated animate__zoomInUp animate__delay-1s"></div>
                 </div>
                 <div class="slide slide2">
+                    <div class="gx animate__animated animate__zoomInDown animate__delay-1s"></div>
                     <div class="slide2-text animate__animated animate__zoomInDown animate__delay-1s"></div>
                     <div class="bg animate__animated animate__zoomInUp animate__delay-1s"></div>
                 </div>
                 <div class="slide slide3">
+                    <div class="gx animate__animated animate__zoomInDown animate__delay-1s"></div>
                     <div class="slide3-text animate__animated animate__zoomInDown animate__delay-1s"></div>
                     <div class="bg animate__animated animate__zoomInUp animate__delay-1s"></div>
                 </div>
@@ -54,12 +60,34 @@ $(function(){
         $('.slide2').addClass('active').siblings().addClass('divnone');
     }else if(PageIndex == '3'){
         $('.slide3').addClass('active').siblings().addClass('divnone');
+
+        setTimeout(() => {
+            location.href = 'page3.html'
+        }, 4000);
+        
     }else if(PageIndex == '4'){
         $('.slide4').addClass('active').siblings().addClass('divnone');
     }
 
+    $('.slide1').on('click',function(){
+        changeUrl(1)
+    })
+    $('.slide2').on('click',function(){
+        changeUrl(2)
+    })
+    $('.slide3').on('click',function(){
+        changeUrl(3)
+    })
+    $('.slide4').on('click',function(){
+        changeUrl(4)
+    })
 
-
+    function changeUrl(index){
+        $('.slide').addClass('animate__animated animate__zoomOutDown')
+        setTimeout(() => {
+            location.href = 'pageNav.html?type='+ index
+        }, 1500);
+    }
 
 })
 

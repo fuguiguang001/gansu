@@ -1,4 +1,23 @@
 .container{
+    .logo{
+        width: 204px;
+        height: 56px;
+        background: url(../img/logo.png) no-repeat;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        margin-left: -102px;
+    }
+    &::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 570px;
+        position: absolute;
+        left: 0;
+        top: 33%;
+        background: url(../img/main_wenli.png) center center no-repeat;
+    }
     .page1-1{
         width: 100%;
         height: 100%;
@@ -34,7 +53,7 @@
                 width: 100%;
                 height: 100%;
                 position: absolute;
-                background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+                background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
                 bottom: 0;
                 &::before{
                     content: '';
@@ -48,9 +67,25 @@
                 left: 50%;
                 transform: translateX(-50%);
             }
+            .gx{
+                width: 245px;
+                height: 270px;
+                position: absolute;
+                top: 550px;
+                left: 279px;
+                background: url(../img/pageNav/gx.png) no-repeat;
+            }
         }
         .slide2{
             left: 25%;
+            .gx{
+                width: 245px;
+                height: 270px;
+                position: absolute;
+                top: 550px;
+                left: 375px;
+                background: url(../img/pageNav/gx.png) no-repeat;
+            }
             .slide2-text{
                 width: 100%;
                 height: 100%;
@@ -62,7 +97,7 @@
                 width: 100%;
                 height: 100%;
                 position: absolute;
-                background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+                background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
                 bottom: 0;
                 &::before{
                     content: '';
@@ -79,6 +114,14 @@
         }
         .slide3{
             left: 50%;
+            .gx{
+                width: 245px;
+                height: 270px;
+                position: absolute;
+                top: 500px;
+                left: 219px;
+                background: url(../img/pageNav/gx.png) no-repeat;
+            }
             .slide3-text{
                 width: 100%;
                 height: 100%;
@@ -90,7 +133,7 @@
                 width: 100%;
                 height: 100%;
                 position: absolute;
-                background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+                background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
                 bottom: 0;
                 &::before{
                     content: '';
@@ -118,7 +161,7 @@
                 width: 100%;
                 height: 100%;
                 position: absolute;
-                background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+                background: url(../img/pageNav/dizuos.png) bottom center no-repeat;
                 bottom: 0;
                 &::before{
                     content: '';

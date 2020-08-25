@@ -7,12 +7,151 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <!-- 下面引入本页面css -->
+    <link rel="stylesheet" href="css/page3.css">
 </head>
 <body>
 
 <div class="container">
+    <div class="posiDIv">
+        <!-- 第一屏 -->
+        <div class="page page3-1 divnone">
+            <div class="leftNav"></div>
+            <div class="rightNav" onclick="changeFn(2)"></div>
+            <div class="title animate__animated animate__backInDown">
+                <img src="./img/page3/title_text.png" alt="">
+            </div>
+            <!-- 左侧 -->
+            <div class="page3-1L">
+                <div class="fk fk1 animate__animated animate__bounceInLeft">
+                    风险事故联动
+                </div>
+                <div class="fk fk2 animate__animated animate__bounceInLeft">
+                    生态红线监控
+                </div>
+                <div class="fk fk3 animate__animated animate__bounceInLeft">
+                    排污企业识别
+                </div>
+            </div>
+            <!-- 中间 -->
+            <div class="page3-1C">
+                <div class="text">
+                    <div class="b1 animate__animated animate__bounceInLeft"></div>
+                    <div class="h1 animate__animated animate__bounceInRight"></div>
+                    <div class="b2 animate__animated animate__bounceInLeft"></div>
+                </div>
+                <div class="kuang animate__animated animate__bounceInUp animate__delay-1s">
+                    <div class="left">
+                        <div class="h2"></div>
+                        <div class="b3"></div>
+                    </div>
+                    <div class="right">
+                        <div class="zhuxi_text">
+                            <img src="./img/page3/h3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page3-1R">
+                <div class="left animate__animated animate__bounceInDown">
+                    <div class="TopNav"></div>
+                    <div class="tb">
+                        <div class="tbbox tbbox1"></div>
+                        <div class="tbbox tbbox2"></div>
+                        <div class="tbbox tbbox3"></div>
+                        <div class="tbbox tbbox4"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="list list1 animate__animated animate__bounceInUp"></div>
+                    <div class="list list2 animate__animated animate__bounceInUp animate__delay-02s"></div>
+                    <div class="list list3 animate__animated animate__bounceInUp animate__delay-04s"></div>
+                    <div class="list list4 animate__animated animate__bounceInUp animate__delay-06s"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 第二屏 -->
+        <div class="page page3-2">
+            <div class="leftNav"></div>
+            <div class="rightNav" onclick="changeFn('next')"></div>
+            <div class="title animate__animated animate__backInDown">
+                <img src="./img/page3/title_text.png" alt="">
+            </div>
+            <!-- 左侧 -->
+            <div class="page3-2L">
+                <div class="ck ck1"></div>
+                <div class="ck ck2"></div>
+                <div class="ck ck3"></div>
+                <div class="fk fk1 animate__animated animate__bounceInLeft">
+                    风险事故联动
+                </div>
+                <div class="fk fk2 animate__animated animate__bounceInLeft">
+                    生态红线监控
+                </div>
+                <div class="fk fk3 animate__animated animate__bounceInLeft">
+                    排污企业识别
+                </div>
+                <div class="qipao qipao1 animate__animated animate__lightSpeedInLeft divnone"></div>
+                <div class="qipao qipao2 divnone animate__animated animate__lightSpeedInRight"></div>
+                <div class="qipao qipao3 divnone animate__animated animate__fadeInUp"></div>
+            </div>
+            <!-- 中间 -->
+            <div class="page3-2C animate__animated animate__bounceInUp">
+                <div class="bg"></div>
+                <div class="bg1"></div>
+                <div class="yuan"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="page3-2R">
+                <div class="left animate__animated animate__bounceInDown">
+                    <div class="TopNav"></div>
+                    <div class="tb">
+                        <div class="tbbox tbbox1"></div>
+                        <div class="tbbox tbbox2"></div>
+                        <div class="tbbox tbbox3"></div>
+                        <div class="tbbox tbbox4"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="list list1 animate__animated animate__bounceInUp"></div>
+                    <div class="list list2 animate__animated animate__bounceInUp animate__delay-02s"></div>
+                    <div class="list list3 animate__animated animate__bounceInUp animate__delay-04s"></div>
+                    <div class="list list4 animate__animated animate__bounceInUp animate__delay-06s"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 
 </div>
 <script src="js/jquery1.8.3.min.js"></script>
+<script>
+    $(function(){
+        // 第二屏左侧点击
+        $('.page3-2L .ck1').on('click',function(){
+            $('.qipao1').removeClass('divnone');
+        })
+        $('.page3-2L .ck2').on('click',function(){
+            $('.qipao2').removeClass('divnone');
+
+            // 联动
+            $('.page3-2C').addClass('active');
+        })
+        $('.page3-2L .ck3').on('click',function(){
+            $('.qipao3').removeClass('divnone');
+        })
+    })
+    // 左侧点击
+
+    // 右侧点击
+    function changeFn(data){
+        if(data == 2){
+            $('.page3-1').addClass('divnone');
+            $('.page3-2').removeClass('divnone');
+        }
+    }
+</script>
 </body>
 </html>
