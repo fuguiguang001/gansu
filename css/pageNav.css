@@ -1,0 +1,145 @@
+.container .page1-1 {
+  width: 100%;
+  height: 100%;
+  padding: 0px 200px;
+}
+.container .page1-1 .pageBg {
+  width: 100%;
+  height: 100%;
+  background: url(../img/pageNav/title.png) no-repeat;
+  position: relative;
+  background-position: center 0px;
+  opacity: 0;
+  animation: bgmove 0.8s forwards;
+}
+.container .page1-1 .slide {
+  width: 25%;
+  height: 900px;
+  float: left;
+  position: absolute;
+  margin-top: 150px;
+  transition: all 1s;
+  transition-delay: 2s;
+}
+.container .page1-1 .slide1 {
+  left: 0%;
+}
+.container .page1-1 .slide1 .slide1-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/slide1_text.png) 50px 240px no-repeat;
+  z-index: 1;
+}
+.container .page1-1 .slide1 .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  bottom: 0;
+}
+.container .page1-1 .slide1 .bg::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/pageNav/slide1_bg.png) center 240px no-repeat;
+}
+.container .page1-1 .slide1.active {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .page1-1 .slide2 {
+  left: 25%;
+}
+.container .page1-1 .slide2 .slide2-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/slide2_text.png) 102px 240px no-repeat;
+  z-index: 1;
+}
+.container .page1-1 .slide2 .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  bottom: 0;
+}
+.container .page1-1 .slide2 .bg::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/pageNav/slide2_bg.png) center 240px no-repeat;
+}
+.container .page1-1 .slide2.active {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .page1-1 .slide3 {
+  left: 50%;
+}
+.container .page1-1 .slide3 .slide3-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/slide3_text.png) 104px 240px no-repeat;
+  z-index: 1;
+}
+.container .page1-1 .slide3 .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  bottom: 0;
+}
+.container .page1-1 .slide3 .bg::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/pageNav/slide3_bg.png) center 240px no-repeat;
+}
+.container .page1-1 .slide3.active {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container .page1-1 .slide4 {
+  left: 75%;
+}
+.container .page1-1 .slide4 .slide4-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/slide4_text.png) 104px 240px no-repeat;
+  z-index: 1;
+}
+.container .page1-1 .slide4 .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../img/pageNav/dizuo.jpg) bottom center no-repeat;
+  bottom: 0;
+}
+.container .page1-1 .slide4 .bg::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/pageNav/slide4_bg.png) center 240px no-repeat;
+}
+.container .page1-1 .slide4.active {
+  left: 50%;
+  transform: translateX(-50%);
+}
+@keyframes bgmove {
+  0% {
+    background-position: center 0px;
+    opacity: 0;
+  }
+  100% {
+    background-position: center 150px;
+    opacity: 1;
+  }
+}

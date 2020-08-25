@@ -6,16 +6,31 @@
     <title>大数据展示平台</title>
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/pageNav.css">
 </head>
 <body>
     <div class="container">
-        <div class="page page1">
-            <div class="page1-box1-text1 animate__animated animate__fadeInDown"></div>
-        </div>
-
-        <div class="page page2 divnone">
-            <div class="page1-box1-text1 animate__animated animate__fadeInDown"></div>
+        <div class="page page1-1">
+            <!-- 推动能源互联网建设背景图 -->
+            <div class="pageBg">
+                <!-- 模块一 -->
+                <div class="slide slide1">
+                    <div class="slide1-text animate__animated animate__zoomInDown animate__delay-1s"></div>
+                    <div class="bg animate__animated animate__zoomInUp animate__delay-1s"></div>
+                </div>
+                <div class="slide slide2">
+                    <div class="slide2-text animate__animated animate__zoomInDown animate__delay-1s"></div>
+                    <div class="bg animate__animated animate__zoomInUp animate__delay-1s"></div>
+                </div>
+                <div class="slide slide3">
+                    <div class="slide3-text animate__animated animate__zoomInDown animate__delay-1s"></div>
+                    <div class="bg animate__animated animate__zoomInUp animate__delay-1s"></div>
+                </div>
+                <div class="slide slide4">
+                    <div class="slide4-text animate__animated animate__zoomInDown animate__delay-1s"></div>
+                    <div class="bg animate__animated animate__zoomInUp animate__delay-1s"></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
@@ -23,9 +38,29 @@
 <script>
 
 $(function(){
-    setTimeout(function(){
-        $('.page2').removeClass('divnone').siblings().addClass('divnone');
-    },20000)
+    // 获取地址参数
+    var getUrlQueryString = (name) => {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)return decodeURI(r[2]);
+        return null;
+    }
+    
+    var PageIndex = getUrlQueryString('type') || '';
+
+    if(PageIndex == '1'){
+        $('.slide1').addClass('active').siblings().addClass('divnone');
+    }else if(PageIndex == '2'){
+        $('.slide2').addClass('active').siblings().addClass('divnone');
+    }else if(PageIndex == '3'){
+        $('.slide3').addClass('active').siblings().addClass('divnone');
+    }else if(PageIndex == '4'){
+        $('.slide4').addClass('active').siblings().addClass('divnone');
+    }
+
+
+
+
 })
 
 </script>
